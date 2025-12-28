@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCX俱乐部</title>
+    <style type="text/css">
+        body {
+            text-align: center;
+            margin: 0;
+            padding: 40px 20px;
+            background: #f0f2f5;
+            font-family: Arial, sans-serif;
+        }
+        .price-title {
+            background-color: lightblue;
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px auto;
+            border-radius: 5px;
+        }
+        .section-title {
+            margin: 40px 0 20px 0;
+        }
+        /* 添加居中首字對齊樣式 - 調整為標題大小 */
+        .centered-aligned-list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin: 30px auto;
+            width: fit-content;
+        }
+        .aligned-item {
+            font-size: 24px; /* 增加字體大小，與h2標題一致 */
+            font-weight: bold;
+            color: #333;
+            text-align: left;
+            display: flex;
+            align-items: flex-start;
+            width: 100%;
+            position: relative;
+            padding-left: 40px; /* 增加padding以適應更大的數字 */
+        }
+        .aligned-item::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            width: 35px; /* 增加數字區域寬度 */
+            text-align: right;
+            font-size: 24px; /* 數字也變大 */
+        }
+        /* 調整每個項目的對齊 */
+        .aligned-item:nth-child(1)::before {
+            content: "1️⃣";
+        }
+        .aligned-item:nth-child(2)::before {
+            content: "2️⃣";
+        }
+        .aligned-item:nth-child(3)::before {
+            content: "3️⃣";
+        }
+        .aligned-item-text {
+            margin-left: 10px; /* 數字和文字之間的間距 */
+        }
+        /* VIP圖標容器樣式 */
+        .vip-links-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        .vip-link-item {
+            text-align: center;
+        }
+        .vip-link-item img {
+            width: 120px;
+            height: 120px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        .vip-link-item p {
+            margin: 15px 0 0 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 頂部圖片和標題 -->
+    <img src="C:\Users\Administrator\Downloads\mmexport1765810465950.jpg" style="width: 100%; max-width: 1875px;">
+    <h2>PCX俱乐部欢迎您</h2>
+    <h2>实力选手/服务至上/优质陪玩/高效售后/纯绿</h2>
+    
+    <!-- 居中首字對齊列表 - 標題大小 -->
+    <div class="centered-aligned-list">
+        <div class="aligned-item">
+            <span class="aligned-item-text">所有项目价格表</span>
+        </div>
+        <div class="aligned-item">
+            <span class="aligned-item-text">vip预存表</span>
+        </div>
+        <div class="aligned-item">
+            <span class="aligned-item-text">老板权益</span>
+        </div>
+    </div>
+    
+    <!-- 第一部分價目表標題 -->
+    <div class="section-title">
+        <h2 style="background-color: lightblue;">1️⃣：所有项目价格表</h2>
+    </div>
+    
+    <!-- 導航圖標區域 -->
+    <div style="display: flex; gap: 50px; justify-content: center; align-items: center; flex-wrap: wrap; padding: 20px;">
+        <!-- 基礎護航 -->
+        <div style="text-align: center;">
+            <a href="C:\Users\Administrator\Desktop\护航单.html">
+                <img src="C:\Users\Administrator\Desktop\威龙(1).png"
+                    style="width: 120px; height: 120px; border-radius: 10px;"
+                >
+            </a>
+            <p style="margin: 15px 0 0 0; font-size: 16px;">基础护航</p>
+        </div>
+        
+        <!-- 陪玩專區 -->
+        <div style="text-align: center;">
+            <a href="C:\Users\Administrator\Desktop\陪玩专区.html">
+                <img src="C:\Users\Administrator\Desktop\红狼(1).png"
+                    style="width: 120px; height: 120px; border-radius: 10px;"
+                >
+            </a>
+            <p style="margin: 15px 0 0 0; font-size: 16px;">陪玩专区</p>
+        </div>
+        
+        <!-- 大紅/清圖價目表 -->
+        <div style="text-align: center;">
+            <a href="C:\Users\Administrator\Desktop\大红清图.html">
+                <img src="C:\Users\Administrator\Desktop\比特(1).png"
+                    style="width: 120px; height: 120px; border-radius: 10px;"
+                >
+            </a>
+            <p style="margin: 15px 0 0 0; font-size: 16px;">大红/清图价目表</p>
+        </div>
+        
+        <!-- 趣味玩法單 -->
+        <div style="text-align: center;">
+            <a href="C:\Users\Administrator\Desktop\趣味单.html">
+                <img src="C:\Users\Administrator\Desktop\无名.png"
+                    style="width: 120px; height: 120px; border-radius: 10px;"
+                >
+            </a>
+            <p style="margin: 15px 0 0 0; font-size: 16px;">趣味玩法单</p>
+        </div>
+
+        <div style="text-align: center;">
+            <a href="C:\Users\Administrator\Desktop\趣味玩法单2.html">
+                <img src="C:\Users\Administrator\Desktop\露娜(1).png"
+                    style="width: 120px; height: 120px; border-radius: 10px;"
+                >
+            </a>
+            <p style="margin: 15px 0 0 0; font-size: 16px;">趣味玩法单2</p>
+        </div>
+        
+        <!-- 3×3賽季任務 -->
+        <div style="text-align: center;">
+            <a href="C:\Users\Administrator\Desktop\3×3.html">
+                <img src="C:\Users\Administrator\Desktop\骇爪(1).png"
+                    style="width: 120px; height: 120px; border-radius: 10px;"
+                >
+            </a>
+            <p style="margin: 15px 0 0 0; font-size: 16px;">3×3赛季任务</p>
+        </div>
+        
+        <!-- VIP預存 -->
+        <!-- 這裡缺少VIP預存的圖標鏈接 -->
+    </div>
+    
+    <!-- 添加VIP預存表標題部分 -->
+    <div class="section-title">
+        <h2 style="background-color: lightblue;">2️⃣：【vip】预存表</h2>
+    </div>
+    
+    <!-- 在VIP預存表標題下面添加並排圖標 -->
+    <div class="vip-links-container">
+        <!-- VIP圖標1 -->
+        <div class="vip-link-item">
+            <a href="C:\Users\Administrator\Desktop\VIP预存.html">
+                <img src="C:\Users\Administrator\Desktop\vip图标(1).png" >
+            </a>
+            <p>【vip】预存表</p>
+        </div>
+        
+        <!-- VIP圖標2 -->
+        <div class="vip-link-item">
+            <a href="C:\Users\Administrator\Desktop\常驻福利.html">
+                <img src="C:\Users\Administrator\Desktop\vip图标(1).png" >
+            </a>
+            <p>常驻福利</p>
+        </div>
+    </div>
+    
+    <!-- 在VIP圖標下面添加老板權益標題 -->
+    <div class="section-title">
+        <h2 style="background-color: lightblue;">3️⃣：老板权益</h2>
+    </div>
+    <img src="C:\Users\Administrator\Downloads\mmexport1766057738156.jpg" style="width: 1249px;">
+    
+</body>
+</html>
